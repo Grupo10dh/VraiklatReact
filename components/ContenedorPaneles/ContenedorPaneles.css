@@ -1,0 +1,27 @@
+.contenedor{
+    display: flex;
+    background-color: #593515;
+    justify-content: space-around;
+    padding: 10px 15px 10px;
+    
+    
+}
+
+.contenedor-img-categorias{
+    display: flex;
+    background-color: #730E16;
+    justify-content: space-around;
+    padding: 25px;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+@media (min-width:800px) {
+.contenedor-img-categorias{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-direction: row;
+}
+}

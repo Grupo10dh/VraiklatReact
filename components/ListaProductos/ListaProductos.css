@@ -1,0 +1,103 @@
+@font-face {
+        font-family: "artifact";
+        src: url(../../font/Artifact.otf);
+}
+
+@font-face {
+        font-family: "gotham";
+        src: url(../../font/Gotham_Book_Font.otf);
+}
+
+
+.listaProductos{
+        display: flex;
+        flex-direction: column;
+        background-color: #D9AD77
+}
+
+.titulos{
+        display: flex;
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        justify-content: space-around;
+        padding: 0;
+;
+}
+
+.fila{
+        height: 15px;
+        list-style: none;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        border-bottom: 1px black solid;
+        padding: 10px;
+        
+        
+}
+
+
+.descripcion-tabla, .nombre-tabla, .precio-tabla {
+        font-size: 12px;
+        font-weight: 500
+}
+
+.titulos-producto, .titulos-descripcion, .titulos-precio{
+        width: 100px
+}
+
+li.descripcion-tabla{
+        width: 100px;
+        word-wrap: break-word;
+}
+
+li.nombre-tabla{
+        width: 100px;
+        word-wrap: break-word;
+}
+
+li.precio-tabla{
+        width: 100px;
+        word-wrap: break-word;
+}
+
+ul.fila{
+        height: 150px;
+}
+
+
+@media(min-width:461px){
+        li.descripcion-tabla, li.nombre-tabla, li.precio-tabla{
+                width: 200px;
+        } 
+        .titulos-producto, .titulos-descripcion, .titulos-precio{
+                width: 200px
+        }
+}
+
+@media(min-width:500px){
+        .descripcion-tabla, .nombre-tabla, .precio-tabla{
+                font-size: 16px;
+        }
+
+        .titulos{
+                font-size: 1.5rem;     
+        }
+        
+}
+
+@media(min-width:850px){
+        li.descripcion-tabla,.titulos-descripcion{
+                width: 400px;
+        
+        } 
+}
+
+
+@media(min-width:1000px){
+        li.descripcion-tabla,.titulos-descripcion{
+                width: 600px;
+        
+        } 
+}

@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "artifact";
+    src: url(../../font/Artifact.otf);
+}
+
+@font-face {
+    font-family: "gotham";
+    src: url(../../font/Gotham_Book_Font.otf);
+}
+
+.tarjeta-ultimoProducto{
+    width: 80%;
+    height: 500px;
+    border: 5px solid #D9AD77;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255) ;
+    padding: 25px;
+    /* text-align: center; */
+    /* white-space: pre-line; */
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word; /* Evita que el texto se salga del contenedor*/
+    font-family: "gotham";
+    text-align: left;
+    font-weight: 900;
+    margin-top: 10px;
+    ;
+}
+
+.foto-ultimoProducto{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+.titulo-ultimoProducto{
+    color: #D9AD77;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.nombre-ultimoProducto{
+    font-size: 1.5rem;
+}
+
+@media (min-width:500px) {
+.tarjeta-ultimoProducto{
+    width: 90%;
+}
+}
+
+
+@media (min-width:800px) {
+    .tarjeta-ultimoProducto{
+        width: 40%;
+        height: 600px;
+    }
+}
+
+
+@media (min-width:1000px) {
+    .tarjeta-ultimoProducto{
+        padding: 25px;
+        
+    }
+    
+    .foto-ultimoProducto{
+        width: 60%;
+        height: 300px;
+    }
+    
+    /* .descripcion-ultimoProducto{
+        text-align: left;
+    } */
+    
+    .titulo-ultimoProducto{
+        color: #D9AD77;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+}
+

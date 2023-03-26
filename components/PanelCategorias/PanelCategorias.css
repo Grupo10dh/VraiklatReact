@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "artifact";
+    src: url(../../font/Artifact.otf);
+}
+
+@font-face {
+    font-family: "gotham";
+    src: url(../../font/Gotham_Book_Font.otf);
+}
+
+.tarjetaCategoria{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #D9AD77;
+    background-color: rgb(255, 255, 255) ;
+    width : 25%;
+    border-radius: 12px;
+    font-family: "gotham";
+    max-width: 300px
+}
+
+
+
+.tarjetaCategoria{
+    font-size: 0.5rem;
+    width : 25%;
+    height: 10%;
+}
+
+
+
+@media(min-width:500px){
+    .tarjetaCategoria{
+        font-size: 0.8rem;
+        width : 24%;
+        
+    }
+
+}

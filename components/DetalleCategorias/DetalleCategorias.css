@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "artifact";
+    src: url(../../font/Artifact.otf);
+}
+
+@font-face {
+    font-family: "gotham";
+    src: url(../../font/Gotham_Book_Font.otf);
+}
+
+
+.detalleCategoria{
+    width: 80%;
+    height: 500px;
+    border: 5px solid #D9AD77;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255) ;
+    padding: 25px;
+    /* text-align: center; */
+    /* white-space: pre-line; */
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word; /* Evita que el texto se salga del contenedor*/
+    font-family: "gotham";
+    /* text-align: left; */
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.categoria{
+    margin-top: 15px;
+}
+
+.titulo-detalleCategoria{
+    color:#D9AD77;
+    margin-top: 0;
+}
+
+
+@media (min-width:500px) {
+.detalleCategoria{
+    width: 90%;
+}
+}
+
+
+
+
+@media (min-width:800px) {
+    .detalleCategoria{
+        width: 40%;
+        height: 600px;
+        border: 5px solid #D9AD77;
+        border-radius: 12px;
+        background-color: rgb(255, 255, 255) ;
+        padding: 25px;
+        /* text-align: center; */
+        /* white-space: pre-line; */
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word; /* Evita que el texto se salga del contenedor*/
+        font-family: "gotham";
+        /* text-align: left; */
+        font-weight: 900;
+        font-size: 1.5em;
+    }
+    
+    .categoria{
+        margin-top: 15px;
+    }
+    
+    .titulo-detalleCategoria{
+        color:#D9AD77
+    }
+}
